@@ -140,7 +140,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
               (bg-violet `(:background ,violet))
               (bg-blue `(:background ,blue))
               (bg-cyan `(:background ,cyan))
-              
+
               (fg-base03 `(:foreground ,base03))
               (fg-base02 `(:foreground ,base02))
               (fg-base01 `(:foreground ,base01))
@@ -321,6 +321,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
              (org-started-kwd-face ((t (,@fg-yellow ,@bg-base03))))
              (org-cancelled-kwd-face ((t (,@fg-green ,@bg-base03))))
              (org-delegated-kwd-face ((t (,@fg-cyan ,@bg-base03))))
+             (org-document-title ((t (:weight bold :height 1.44,@fg-yellow))))
              ;; outline - pandocBlockQuoteLeader*
              (outline-1 ((t (,@fmt-none ,@fg-blue))))
              (outline-2 ((t (,@fmt-none ,@fg-cyan))))
